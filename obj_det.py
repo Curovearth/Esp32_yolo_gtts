@@ -20,7 +20,8 @@ net = cv2.dnn.readNetFromDarknet("yolov3.cfg", "yolov3.weights")
 ln = net.getLayerNames()
 ln = [ln[i[0] - 1] for i in net.getUnconnectedOutLayers()]
 
-stream = request.urlopen('http://192.168.1.12:81/stream')
+stream = request.urlopen('ip address of the esp32 cam ') #Make sure you click on the inspect element from the stream and then you'll get the exact ip address of the stream 
+                                                         # it would look something like this http://192.168.1.103:81/stream
 # stream = cv2.VideoCapture(0)
 
 bts = b''
