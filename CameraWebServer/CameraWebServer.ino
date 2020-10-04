@@ -15,8 +15,8 @@
 
 #include "camera_pins.h"
 
-const char* ssid = "Kanchan 2.4G";
-const char* password = "135792468";
+const char* ssid = "Your wifi name";
+const char* password = "wifi password";
 
 void startCameraServer();
 
