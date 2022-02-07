@@ -24,3 +24,11 @@ Being an AI enthusiasts and a tech geeks we look forward on making it much more 
 https://pjreddie.com/media/files/yolov3.weights to the same folder.
 
 Have Fun using this and remember **every person can make a difference in someone's life.**
+
+## Brains behind this project:
+
+<a href="https://github.com/Curovearth"> Swarup Tripathy :smile: </a>
+
+<a href="https://github.com/yatharthagr7"> Yatharth Agarwal :smile: </a>
+
+<a href="https://github.com/anvit1618"> Anvit Agarwal 👽 </a>
