@@ -1,3 +1,6 @@
+# @Author: Swarup Tripathy
+# No text to speech conversion present here
+
 import cv2
 import numpy as np
 import time
@@ -10,7 +13,7 @@ url='http://192.168.100.5/capture' # update your url from esp32
 
 ###################### Load Yolo #####################################
 net = cv2.dnn.readNet(r"C:\Users\BIG  BANG\Documents\Downloads\yolo_realtime_detection_cpu\weights\yolov3-tiny.weights",
-                      r"C:\Users\BIG  BANG\Documents\Downloads\yolo_realtime_detection_cpu\cfg\yolov3-tiny.cfg")
+                      r"C:\Users\BIG  BANG\Documents\Downloads\yolo_realtime_detection_cpu\cfg\yolov3-tiny.cfg") # change it to your directory
 classes = []
 with open("coco.names", "r") as f:
     classes = [line.strip() for line in f.readlines()]
